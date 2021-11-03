@@ -1,0 +1,27 @@
+.landing-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 100px 2rem;
+}
+
+.landing-preview__left {
+    flex: 1;
+}
+
+.landing-preview__right {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    
+    align-items: flex-end;
+}
+
+.landing-preview__right > * {
+    margin-bottom: 16px;
+}
