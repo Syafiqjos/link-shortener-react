@@ -4,6 +4,7 @@
     justify-content: space-between;
 
     padding: 100px 2rem;
+    padding-bottom: 0px;
 }
 
 .landing-preview__left {
