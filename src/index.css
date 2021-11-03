@@ -20,7 +20,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  min-height: 100vh;
+
   background-color: var(--secondary-color);
+}
+
+main {
+  min-height: 75vh;
+}
+
+.page {
+  min-height: 100vh;
 }
 
 a {
