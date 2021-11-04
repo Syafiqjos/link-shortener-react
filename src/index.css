@@ -7,6 +7,22 @@
   --light-color: #FFFFFF;
 }
 
+.color--primary {
+  color: var(--primary-color);
+}
+
+.color--secondary {
+  color: var(--secondary-color);
+}
+
+.color--light {
+  color: var(--light-color);
+}
+
+.color--shadow {
+  color: var(--shadow-color);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -74,7 +90,7 @@ a {
   font-size: 1.2rem;
 }
 
-input[type=text] {
+input[type=text], input[type=password] {
   padding: 10px 40px;
 
   font-family: 'Schoolbell', cursive;
@@ -89,4 +105,105 @@ input[type=text] {
   border-radius: 12px;
   border: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2rem;
+
+  border: none;
+  border-radius: 16px;
+
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.form--light {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.form--dark {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.form__title {
+  font-family: 'Schoolbell', cursive;
+  font-size: 2rem;
+
+  text-align: center;
+}
+
+.form__group-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__group-item:last-child {
+  margin-top: 1rem;
+}
+
+.form__group-item--left {
+  align-self: flex-start;
+}
+
+.form__group-item--center {
+  align-self: center;
+}
+
+.form__group-item--right {
+  align-self: flex-end;
+}
+
+.form__group-item--row {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.form__item-header {
+  font-size: 1.2rem;
+
+  margin-bottom: 0.25rem;
+}
+
+.form__item-header--start {
+  align-self: flex-start;
+}
+
+.form__item-header--center {
+  align-self: center;
+}
+
+.form__item-header--end {
+  align-self: flex-end;
+}
+
+.form__item-info {
+  align-self: flex-end;
+
+  font-size: 1rem;
+
+  margin-top: 0.5rem;
+}
+
+.form__input-text {
+  filter: none;
+}
+
+.form__btn {
+  padding: 1rem;
+
+  width: 150px;
+
+  text-align: center;
+
+  align-self: flex-end;
 }
