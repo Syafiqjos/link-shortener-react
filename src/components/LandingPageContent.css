@@ -16,3 +16,11 @@
 .landing-content__shortener-form:last-child {
     margin-right: 0px;
 }
+
+.landing-content__account-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 50px;
+}
