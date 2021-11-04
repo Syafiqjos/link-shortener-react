@@ -1,0 +1,18 @@
+.landing-content {
+    background-color: var(--primary-color);
+
+    min-height: 100px;
+}
+
+.landing-content__shortener-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.landing-content__shortener-form > * {
+    margin-right: 1rem;
+}
+
+.landing-content__shortener-form:last-child {
+    margin-right: 0px;
+}
