@@ -21,10 +21,10 @@ function LandingPageContent() {
                 </div>
             </Section>
             <Section title="Share to your friends!" subtitle="By creating shorten link, it’s easy to remember and visit your favorite links faster!">
-                <form className="landing-content__shortener-form">
-                    <input type="text" name="url" placeholder="input your favorite link here!" />
-                    <input className="btn btn--secondary btn--medium" type="submit" value="Short it!" />
-                </form>
+                <div className="landing-content__share-form">
+                    <span>https://ls.me/join-now</span>
+                    <button className="btn btn--primary btn--medium">Share!</button>
+                </div>
             </Section>
         </div>
     );
