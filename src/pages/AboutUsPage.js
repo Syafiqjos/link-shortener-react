@@ -1,4 +1,4 @@
-import './AboutUsPage.css';
+import './__SectionPage.css';
 
 // Components
 import Header from '../components/Header';
