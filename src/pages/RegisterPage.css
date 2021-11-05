@@ -24,6 +24,12 @@ main {
     border-top-left-radius: 0px;
 }
 
+.splitter__left a {
+    margin-bottom: 10px;
+
+    font-size: 1.1rem;
+}
+
 .splitter__right {
     display: flex;
     flex-direction: column;

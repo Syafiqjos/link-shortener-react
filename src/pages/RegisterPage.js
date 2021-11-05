@@ -11,6 +11,7 @@ function RegisterPage() {
         <div className="page">
             <main className="splitter">
                 <div className="splitter__left">
+                    <Link to="/">{'<'} Back to home</Link>
                     <RegisterForm />
                 </div>
                 <div className="splitter__right">

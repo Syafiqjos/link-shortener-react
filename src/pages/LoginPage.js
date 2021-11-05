@@ -11,6 +11,7 @@ function LoginPage() {
         <div className="page">
             <main className="splitter">
                 <div className="splitter__left">
+                    <Link to="/">{'<'} Back to home</Link>
                     <LoginForm />
                 </div>
                 <div className="splitter__right">
