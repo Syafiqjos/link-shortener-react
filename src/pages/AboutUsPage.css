@@ -1,0 +1,25 @@
+.section {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.section__title {
+    color: var(--primary-color);
+}
+
+.section__subtitle {
+    color: var(--primary-color);
+}
+
+.section__content {
+    color: var(--light-color);
+    background-color: var(--primary-color);
+
+    padding: 1rem;
+
+    border-radius: 1rem;
+
+    max-width: 800px;
+    width: 800px;
+    width: min(800px, 90vw);
+}
