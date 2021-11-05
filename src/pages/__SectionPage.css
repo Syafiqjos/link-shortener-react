@@ -1,17 +1,17 @@
-.section {
+.page-main .section {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
 
-.section__title {
+.page-main .section__title {
     color: var(--primary-color);
 }
 
-.section__subtitle {
+.page-main .section__subtitle {
     color: var(--primary-color);
 }
 
-.section__content {
+.page-main .section__content {
     color: var(--light-color);
     background-color: var(--primary-color);
 
