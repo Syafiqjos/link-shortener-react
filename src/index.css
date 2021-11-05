@@ -187,6 +187,8 @@ input[type=text], input[type=password] {
   font-family: 'Schoolbell', cursive;
   font-size: 2rem;
 
+  margin-bottom: 1rem;
+
   text-align: center;
 }
 
