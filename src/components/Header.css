@@ -133,7 +133,9 @@
 
         z-index: 500;
 
-        inset: 0px;
+        left: 0px;
+        top: 0px;
+        
         width: 100vw;
         height: 100vh;
 

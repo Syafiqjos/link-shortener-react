@@ -139,6 +139,9 @@ input[type=text], input[type=password] {
   width: 500px;
   width: min(500px, 100%);
 
+  max-width: 90vw;
+  max-width: min(90vw, 90%);
+
   background-color: var(--light-color);
   color: var(--primary-color);
 

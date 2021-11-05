@@ -14,6 +14,7 @@ function LandingPageContent() {
                     <input className="btn btn--secondary btn--medium" type="submit" value="Short it!" />
                 </form>
             </Section>
+            
             <Section title="Managable and versatile" subtitle="or by create an account to manage you links and update it whichever you like!">
                 <div className="landing-content__account-form">
                     <RegisterForm />

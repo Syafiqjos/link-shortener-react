@@ -27,6 +27,8 @@
     width: 80ch;
     width: min(80ch, 90vw);
 
+    max-width: 90vw;
+
     color: var(--light-color);
     
     margin-bottom: 2rem;

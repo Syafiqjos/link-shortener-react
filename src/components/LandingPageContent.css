@@ -22,7 +22,20 @@
     flex-direction: row;
     justify-content: space-around;
 
-    gap: 20px;
+    max-width: 90vw;
+}
+
+.landing-content__account-form > * {
+    margin-bottom: 20px;
+}
+
+.landing-content__account-form > *:last-child {
+    margin-bottom: 0px;
+}
+
+.landing-content__account-form input[type=text], 
+.landing-content__account-form input[type=password] {
+    width: 90%;
 }
 
 .landing-content__share-form {
