@@ -5,6 +5,7 @@ import './index.css';
 // import App from './App';
 import LandingPage from './pages/LandingPage.js';
 import LoginPage from './pages/LoginPage.js';
+import RegisterPage from './pages/RegisterPage.js';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
@@ -18,6 +19,9 @@ ReactDOM.render(
         </Route>
         <Route path="/sign-in">
           <LoginPage />
+        </Route>
+        <Route path="/sign-up">
+          <RegisterPage />
         </Route>
       </Switch>
     </BrowserRouter>
