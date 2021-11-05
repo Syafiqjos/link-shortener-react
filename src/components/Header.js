@@ -17,11 +17,27 @@ class Header extends React.Component {
 
         this.openNavigation = this.openNavigation.bind(this);
         this.closeNavigation = this.closeNavigation.bind(this);
+        this.onWindowResize = this.onWindowResize.bind(this);
+    }
+
+    onWindowResize() {
+        if (this.state.navigationShow === true) {
+            if (window.screen.width > 800) {
+                this.setState({navigationShow: false});
+            }
+        }
+    }
+
+    componentDidMount() {
+        window.addEventListener('resize', this.onWindowResize);
+    }
+  
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.onWindowResize);
     }
 
     openNavigation() {
         this.setState({navigationShow: true});
-        console.log(this.navigationShow);
     }
 
     closeNavigation() {
