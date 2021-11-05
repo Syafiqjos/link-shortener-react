@@ -4,6 +4,7 @@ import './index.css';
 
 // import App from './App';
 import LandingPage from './pages/LandingPage.js';
+import LoginPage from './pages/LoginPage.js';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
@@ -14,6 +15,9 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/">
           <LandingPage />
+        </Route>
+        <Route path="/sign-in">
+          <LoginPage />
         </Route>
       </Switch>
     </BrowserRouter>
