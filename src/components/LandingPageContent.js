@@ -7,7 +7,7 @@ import RegisterForm from './RegisterForm';
 
 function LandingPageContent() {
     return (
-        <div class="landing-content">
+        <div className="landing-content">
             <Section title="Easy, simple and fast!" subtitle="Easy as input your chosen link, simple as tap Short It button and fast as free without making an account first!">
                 <form className="landing-content__shortener-form">
                     <input type="text" name="url" placeholder="input your favorite link here!" />
