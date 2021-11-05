@@ -25,6 +25,7 @@
     text-align: center;
 
     width: 80ch;
+    width: min(80ch, 90vw);
 
     color: var(--light-color);
     
