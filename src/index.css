@@ -166,6 +166,9 @@ input[type=text], input[type=password] {
   border: none;
   border-radius: 16px;
 
+  width: 100%;
+  width: min(100%, 90vw);
+
   background-color: var(--secondary-color);
   color: var(--primary-color);
 }
@@ -191,6 +194,8 @@ input[type=text], input[type=password] {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 100%;
 }
 
 .form__group-item:last-child {
@@ -221,6 +226,8 @@ input[type=text], input[type=password] {
   font-size: 1.2rem;
 
   margin-bottom: 0.25rem;
+
+  padding-right: 20px;
 }
 
 .form__item-header--start {
