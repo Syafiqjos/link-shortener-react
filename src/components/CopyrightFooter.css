@@ -7,3 +7,7 @@
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
+
+.copyright-notice::after {
+    content: "© 2021 Ahmad Syafiq Aqil Wafi. All rights reserved.";
+}
