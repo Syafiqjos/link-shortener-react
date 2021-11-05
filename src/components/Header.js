@@ -24,7 +24,7 @@ function Header() {
                         <Link to="/tos">ToS</Link>
                     </li>
                     <li className="navigation__link-item">
-                        <Link className="btn btn--secondary" href="/sign-in">Sign In</Link>
+                        <Link className="btn btn--secondary" to="/sign-in">Sign In</Link>
                     </li>
                 </ul>
             </nav>
