@@ -7,6 +7,7 @@ import LandingPage from './pages/LandingPage.js';
 import LoginPage from './pages/LoginPage.js';
 import RegisterPage from './pages/RegisterPage.js';
 import AboutUsPage from './pages/AboutUsPage.js';
+import TOSPage from './pages/TOSPage.js';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
@@ -26,6 +27,9 @@ ReactDOM.render(
         </Route>
         <Route path="/about-us">
           <AboutUsPage />
+        </Route>
+        <Route path="/tos">
+          <TOSPage />
         </Route>
       </Switch>
     </BrowserRouter>
