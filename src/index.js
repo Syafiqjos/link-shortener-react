@@ -6,6 +6,7 @@ import './index.css';
 import LandingPage from './pages/LandingPage.js';
 import LoginPage from './pages/LoginPage.js';
 import RegisterPage from './pages/RegisterPage.js';
+import AboutUsPage from './pages/AboutUsPage.js';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
@@ -23,10 +24,13 @@ ReactDOM.render(
         <Route path="/sign-up">
           <RegisterPage />
         </Route>
+        <Route path="/about-us">
+          <AboutUsPage />
+        </Route>
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root') 
 );
 
 // If you want to start measuring performance in your app, pass a function
